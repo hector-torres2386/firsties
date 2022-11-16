@@ -59,6 +59,8 @@ console.log(typeof handleMiddleware)
 // suppose we want to declare all three of the arguments
 // we would call the function like this; handleMiddleware()()()
 
+
+
 handleMiddleware({
     dispatch: "Some value",
     getState: "Some Value"
